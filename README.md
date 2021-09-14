@@ -1,2 +1,2 @@
-# My-VSCode
-Minhas configurações.
+# My VSCode
+Minhas configurações preferidas.
