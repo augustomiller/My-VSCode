@@ -1,0 +1,2 @@
+# My-VSCode
+Minhas configurações.
