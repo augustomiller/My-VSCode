@@ -1,0 +1,107 @@
+{
+    "workbench.iconTheme": "material-icon-theme",
+    "eslint.alwaysShowStatus": true,
+    "cSpell.language": "en,pt-br",
+    "cSpell.userWords": [
+        "Maic",
+        "bbzim",
+        "mongodb"
+    ],
+    // "editor.fontFamily": "JetBrains Mono",
+    // "editor.fontFamily": "Fira Code",
+    "editor.fontFamily": "Victor Mono ExtraLight",
+    "editor.fontLigatures": true,
+    "editor.rulers": [
+        80,
+        120
+    ],
+    "editor.suggestSelection": "first",
+    "breadcrumbs.enabled": true,
+    "editor.parameterHints.enabled": true,
+    "editor.formatOnSave": true,
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false,
+    "emmet.syntaxProfiles": {
+        "javascript": "jsx"
+    },
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact"
+    },
+    "typescript.tsserver.log": "off",
+    "javascript.suggest.autoImports": true,
+    "typescript.suggest.autoImports": true,
+    "workbench.startupEditor": "none",
+    "terminal.integrated.automationShell.linux": "/bin/zsh",
+    "editor.tokenColorCustomizations": {
+        "[Tokyo Night]": {
+            "textMateRules": [
+                {
+                    "scope": [
+                        "comment",
+                        "meta.var.expr storage.type",
+                        "keyword.control.flow",
+                        "keyword.control.return",
+                        "meta.directive.vue punctuation.separator.key-value.html",
+                        "meta.directive.vue entity.other.attribute-name.html",
+                        "tag.decorator.js entity.name.tag.js",
+                        "tag.decorator.js punctuation.definition.tag.js",
+                        "storage.modifier"
+                    ],
+                    "settings": {
+                        "fontStyle": ""
+                    }
+                }
+            ]
+        }
+    },
+    // .graphqlrc.yml
+    "vscode-graphql.useSchemaFileDefinitions": true,
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
+    },
+    "window.zoomLevel": 1.3,
+    "workbench.colorTheme": "Nord",
+    "todo-tree.general.tags": [
+        "BUG",
+        "HACK",
+        "FIXME",
+        "TODO",
+        "STUDY",
+        "[ ]"
+    ],
+    "todo-tree.highlights.defaultHighlight": {},
+    "todo-tree.highlights.customHighlight": {
+        "TODO": {
+            "foreground": "green",
+            "iconColour": "green",
+            "gutterIcon": true
+        },
+        "BUG": {
+            "icon": "bug",
+            "foreground": "red",
+            "gutterIcon": true
+        },
+        "FIXME": {
+            "icon": "flame",
+            "foreground": "orange",
+            "gutterIcon": true,
+            "opacity": 50,
+        },
+        "STUDY": {
+            "icon": "alert",
+            // "icon": "beaker",
+            "foreground": "yellow",
+            "gutterIcon": true,
+            "opacity": 90,
+        }
+    },
+    "editor.formatOnPaste": true,
+    "javascript.preferences.quoteStyle": "single",
+    "typescript.preferences.quoteStyle": "single"
+}
